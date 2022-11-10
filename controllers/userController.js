@@ -8,7 +8,7 @@ export const login = (req, res) => {
     // const matched = true;
     // get json data from the request body
     const { username, password } = req.body;
-    if(username==="dipendra" && password==="dipendra123"){
+    if(username==="laxmi" && password==="laxmi123"){
         res.send("Successfully Logged in")
     } else {
         res.send ("Username or Password does not match.")
